@@ -92,4 +92,32 @@ Math.random() * 1000;
 Math.max(34, 32, 37);
 2 * (3 + 4) - 5 / 2;
 
+// Strings in JavaScript
+// Concatenation
+const firstname = 'Elizabeth';
+const lastname = 'Odei';
+const middlename = 'Catherine'
+firstname + ' ' + middlename + ' ' + lastname;
+// Template literal
+`${firstname} ${middlename} ${lastname}`;
+
+// String Method
+let fullname = "elizabeth catherine odei"
+
+fullname.length
+fullname.toUpperCase()
+fullname.toLowerCase()
+fullname.charAt(7)
+fullname.slice(10,22)
+fullname.split("")
+fullname.replace("odei","antwi")
+fullname.indexOf("catherine")
+
+// string conversion
+Number("3.243")
+parseInt("3.243")
+parseFloat("3.243")
+let amount = 18000
+console.log(`GHS${amount}`)
+amount.toString()
 
