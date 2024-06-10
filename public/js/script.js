@@ -121,3 +121,41 @@ let amount = 18000
 console.log(`GHS${amount}`)
 amount.toString()
 
+
+// Write a function that will add a participant to our Google Classroom
+
+// Functions
+const participants = [];
+function addParticipant(email){
+  // Check if email was provided
+  if (!email) {
+    return 'No email provided'
+  }
+  // Check if email is valid
+  if (!email.includes('@gmail.com')) {
+    return 'Invalid email provided';
+  }
+  // Add email to participants
+  participants.push(email);
+    return 'Participant added';
+  }
+
+addParticipant('bettyafuaantwi@yahoo.com');
+addParticipant('lizzie@gmail.com');
+addParticipant();
+addParticipant('bettyafua');
+participants;
+
+// Arrays in JavaScript
+const users = [
+  {
+    username: 'Tilopsiii',
+    password: '1234',
+    email: 'bettyafuaantwi@yahoo.com'
+  },
+   {
+    username: 'Tilopsy',
+    password: '12345',
+    email: 'lizzie@gmail.com'
+  }
+];
