@@ -146,16 +146,60 @@ addParticipant();
 addParticipant('bettyafua');
 participants;
 
-// Arrays in JavaScript
-const users = [
-  {
-    username: 'Tilopsiii',
-    password: '1234',
-    email: 'bettyafuaantwi@yahoo.com'
-  },
-   {
-    username: 'Tilopsy',
-    password: '12345',
-    email: 'lizzie@gmail.com'
+// // Arrays in JavaScript
+// const users = [
+//   {
+//     username: 'Tilopsiii',
+//     password: '1234',
+//     email: 'bettyafuaantwi@yahoo.com'
+//   },
+//    {
+//     username: 'Tilopsy',
+//     password: '12345',
+//     email: 'lizzie@gmail.com'
+//   }
+// ];
+
+// Write a function that will take a user with  firstname, lastname and return fullname;
+function fullName(user) {
+  return {
+    ...user, 
+    fullName: `${user.firstname} ${user.lastname}`
+  };
+     }
+  
+  const user = {
+    firstname: 'Elizabeth',
+    lastname: 'Odei'
   }
-];
+    fullName(user);
+  
+  
+  // Array map
+  const users = [
+      {firstname: 'Elizabeth', lastname: 'Odei'},
+      {firstname: 'Abena', lastname: 'Yankey'},
+      {firstname: 'Ama', lastname: 'Manu'},
+      {firstname: 'Henry', lastname: 'Amponsah'},
+      {firstname: 'Philip', lastname: 'Antwi'},
+  
+  ]
+  // users.map(fullName);
+  
+  // Square of numbers
+  function square(number){
+    return number ** 2;
+  }
+  square(5);
+  const numbers = [9, 8, 7, 6];
+  numbers.map(square);
+  
+  
+  // Write a function that takes a number. If the number is an even number, it should return "true" if it is an odd number, it should return "false".
+  function isEven(number){
+    return number % 2 === 0;
+  }
+     isEven(6);
+  numbers.filter(isEven);
+  
+  
