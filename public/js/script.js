@@ -226,7 +226,7 @@ const user = {
   }
   }
    user;
-  resetPassword("bettylizzie25@gmail.com")
+  resetPassword("bettylizzie25@gmail.com", 'Betty')
   user;
   
   // Objects in JavaScript
