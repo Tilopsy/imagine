@@ -148,19 +148,20 @@ addParticipant();
 addParticipant('bettyafua');
 participants;
 
-// // Arrays in JavaScript
-// const users = [
-//   {
-//     username: 'Tilopsiii',
-//     password: '1234',
-//     email: 'bettyafuaantwi@yahoo.com'
-//   },
-//    {
-//     username: 'Tilopsy',
-//     password: '12345',
-//     email: 'lizzie@gmail.com'
-//   }
-// ];
+// Arrays in JavaScript
+
+const users = [
+  {
+    username: 'Tilopsiii',
+    password: '1234',
+    email: 'bettyafuaantwi@yahoo.com'
+  },
+   {
+    username: 'Tilopsy',
+    password: '12345',
+    email: 'lizzie@gmail.com'
+  }
+];
 
 // Write a function that will take a user with  firstname, lastname and return fullname;
 function fullName(user) {
